@@ -1,0 +1,82 @@
+.logo {
+  height: 5%;
+  width: 5%;
+}
+
+.navbar {
+  background-color: #7bc8fb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  padding: 10px 0; 
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.navbar-links {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background-color: white;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.main-content {
+  margin-top: 70px; 
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 70px); 
+}
+
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+}
